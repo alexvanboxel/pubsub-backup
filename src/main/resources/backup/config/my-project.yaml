@@ -1,0 +1,8 @@
+subscriptions:
+- subscriptionName: projects/my-project/subscriptions/backup.radar.aliens-detected
+  topicName: radar.aliens-detected
+  displayName: aliens-detected
+- subscriptionName: projects/my-project/subscriptions/backup.tower.spaceships-launched
+  topicName: tower.spaceships-launched
+  displayName: spaceships-launched
+  timestampAttribute: event_ts
