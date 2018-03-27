@@ -11,33 +11,7 @@ repositories {
 }
 
 dependencies {
-    compile('org.apache.beam:beam-sdks-java-core:2.0.0')
-            {
-                exclude group: 'com.google.guava'
-                exclude group: 'com.google.protobuf'
-                exclude(module: 'protobuf-lite')
-            }
-    compile(group: 'com.google.cloud.dataflow', name: 'google-cloud-dataflow-java-sdk-all', version: '2.0.0')
-            {
-                exclude group: 'com.google.guava'
-                exclude(module: 'protobuf-lite')
-            }
-    compile('org.apache.beam:beam-sdks-java-extensions-protobuf:2.0.0')
-    compile('org.apache.beam:beam-sdks-java-extensions-google-cloud-platform-core:2.0.0')
-            {
-                exclude group: 'com.google.guava'
-                exclude(module: 'protobuf-lite')
-            }
-    compile('org.apache.beam:beam-sdks-java-io-google-cloud-platform:2.0.0')
-            {
-                exclude group: 'com.google.guava'
-                exclude group: 'com.google.protobuf'
-                exclude(module: 'protobuf-lite')
-            }
-    compile('org.apache.beam:beam-sdks-java-io-common:2.0.0')
-    compile "com.google.protobuf:protobuf-java:3.3.1"
-    compile "com.google.protobuf:protobuf-java-util:3.3.1"
-    compile 'com.google.guava:guava:21.0'
+    compile 'com.google.cloud.dataflow:google-cloud-dataflow-java-sdk-all:2.3.0'
 
     compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.8'
 
