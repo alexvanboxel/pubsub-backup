@@ -1,3 +1,6 @@
+This code sample has been updated for Apache Beam 2.3+
+
+
 ```
 java -jar build/libs/pubsub-backup-backup-1.0.jar \
  --project=my-project \
