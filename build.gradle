@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.cloud.dataflow:google-cloud-dataflow-java-sdk-all:2.3.0'
+    compile 'com.google.cloud.dataflow:google-cloud-dataflow-java-sdk-all:2.5.0'
 
     compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.8'
 
